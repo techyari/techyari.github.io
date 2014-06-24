@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TechYari - HTML5, CSS3, JavaScript Demo & Tutorials</title>
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<header class="navbar">
+  	 <div class="container">
+  	 	<div class="navbar-header">
+      		<a href="http://techyari.github.io">TechYari</a>
+    	</div>
+  	 </div>	
+  		
+  	</header>
+  	<div class="container">
+      <div class="post-title">
+  		 <h2><a href="#">Creating an animated hover popup using jQuery and CSS3</a></h2>
+      </div>
+
+      <div class="row hover-demo">
+        <div class="col-md-4">
+          <div class="outer-wrapper">
+            <div class="on-hover-content">
+            <img src="img/mustang.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada turpis metus, vitae fermentum mauris imperdiet ut. Suspendisse aliquam</p>
+            </div>
+            <a type="button" class="btn btn-primary">An Image with text</a>
+           </div>
+        </div>
+        <div class="col-md-4">
+           <div class="outer-wrapper">
+            <div class="on-hover-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada turpis metus, vitae fermentum mauris imperdiet ut. Suspendisse aliquam</p>
+            </div>
+          <a type="button" class="btn btn-success">A paragraph</a>
+        </div>
+        </div>
+        <div class="col-md-4">
+           <div class="outer-wrapper">
+            <div class="on-hover-content">
+              <div id="dynamic-content">
+
+              </div>
+            </div>
+          <a type="button" class="btn btn-info">A dynamic content</a>
+        </div>
+        </div>
+      </div>
+  	</div>
+   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+     <script type="text/javascript">
+      $(document).ready(function(){
+          $('#dynamic-content').load("http://techyari.github.io");
+      });
+    </script>
+  </body>
+</html>
