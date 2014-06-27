@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TechYari - HTML5, CSS3, JavaScript Demo & Tutorials</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+     <link href="plugins/nivo-slider/nivo-slider.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<header class="navbar">
+  	 <div class="container">
+  	 	<div class="col-md-8 navbar-header">
+      		<a href="#">TechYari</a>
+    	</div>
+        <div class="col-md-4 main-navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+      </div>
+  	 </div>	
+  		
+  	</header>
+  	<div class="wrapper">
+     <div class="slider-bg">
+      <div class="container">
+     <div class="col-md-8 col-md-offset-2">
+             <div class="slider-wrapper theme-default">
+              <div id="slider" class="nivoSlider">
+                <img src="img/1.jpg" data-thumb="img/1.jpg" alt="" />
+                <a href="http://techyari.in"><img src="img/1.jpg" data-thumb="img/2.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="img/2.jpg" data-thumb="img/3.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/3.jpg" data-thumb="img/4.jpg" alt="" title="#htmlcaption" />
+              </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+     </div>
+     </div>
+   </div>
+   <div class="container">
+     <div class="row">
+     <div class="col-md-4">
+        <div class="intro">
+            <div class="image"> <img src="img/iPad.png"/></div>
+            <h2>Introducing new iPad</h2>
+            <p>Lorem ipsum dollor Lorem ipsum dollor Lorem ipsum dollorLorem ipsum dollorLorem</p>
+        </div>
+      
+     </div>
+     <div class="col-md-4">
+         <div class="intro">
+            <div class="image"><img src="img/monitor.png"/></div>
+            <h2>Fall in love with MacBook</h2>
+            <p>Lorem ipsum dollor Lorem ipsum dollor Lorem ipsum dollorLorem ipsum dollorLorem</p>
+        </div>
+     </div>
+     <div class="col-md-4">
+         <div class="intro">
+            <div class="image"><img src="img/Printer.png"/></div>
+             <h2>Wirelss Printing</h2>
+            <p>Lorem ipsum dollor Lorem ipsum dollor Lorem ipsum dollorLorem ipsum dollorLorem</p>
+        </div>
+     </div>
+     </div>
+     <hr class="half-rule">
+     <div class="tagline">
+        <p>This is an awesome website. You will love it for sure</p>
+        <a href="#">Download Source Code</a>
+     </div>
+      </div>
+  	</div>
+    <div class="credits">
+      <div class="container">
+         <div class="col-md-4">
+            <h4>Credits & Attributions:</h4>
+         </div>
+          <div class="col-md-4">
+            <p>Images :</p>
+            <ul>
+              <li><a href="https://www.flickr.com/photos/katsrcool/14511055622/">Kool Cats Photography</a></li>
+               <li><a href="https://www.flickr.com/photos/breatheoutnow/14505171801/">breatheoutnow</a></li>
+                <li><a href="https://www.flickr.com/photos/118118485@N05/14535481923/">Michael D Beckwith</a></li>
+            </ul>
+         </div>
+          <div class="col-md-4">
+            <p>Scripts :</p>
+            <ul>
+              <li><a href="http://jquery.com/">jQuery</a></li>
+              <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+              <li><a href="http://dev7studios.com/plugins/nivo-slider/">Nivo Slider</a></li>
+
+            </ul>
+         </div>
+      </div>
+    </div>
+   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+     <script src="plugins/nivo-slider/jquery.nivo.slider.js"></script>
+      <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+	<footer>
+        &copy 2014 Techyari.in | All rights reserved
+    </footer>
+
+  </body>
+</html>

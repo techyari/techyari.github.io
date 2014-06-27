@@ -1,0 +1,27 @@
+/********** General Styles *********/
+body{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+p{color:#555;}
+.navbar{ height:50px;background:#ffffff;color:gray;margin-bottom: 0px;}
+.navbar-header{padding-top: 5px;}
+.navbar-header a{font-weight: bold;font-size: 32px;line-height: 32px;color:gray;text-decoration: none;}
+.wrapper{min-height:500px; margin-bottom: 20px;}
+.post-title h2{text-align: center; margin-bottom: 50px;}
+.post-title a{text-decoration: none;}
+footer{border-top: 1px solid gray;text-align: center;}
+
+
+/********** Navigation *********/
+
+.main-navigation ul li{float: left;list-style-type: none;margin: 10px 0px 0px 10px}
+.main-navigation ul li a{text-decoration: none;color:#555;font-size: 14px;;}
+.main-navigation ul li a:hover,.main-navigation ul li a:focus,.main-navigation ul li a:active{color:#428bca;}
+.slider-bg{background: #244363;padding: 20px 0px 20px 0px;margin-bottom: 20px;}
+.intro{text-align: center;}
+.half-rule {width: 100px;margin: 40px auto;}
+.tagline{text-align: center;}
+.tagline p{font-size: 20px;font-weight: bold;}
+.tagline a{text-decoration: none;padding: 6px 10px;border: 1px solid gray;border-radius: 5px;}
+.credits{text-align: left; margin-top: 100px;background: rgb(57, 93, 156);padding: 10px;color: white;}
+.credits p{color: white}
+.credits ul li{list-style-type: none}
+.credits a{color: white}
