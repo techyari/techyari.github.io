@@ -5,12 +5,16 @@ api_version: 1
 
 handlers:
 - url: /css
-  static_dir:css
+  static_dir: css
+
 - url: /js
-  static_dir:js
+  static_dir: js
+
 - url: /fonts
-  static_dir:fonts
+  static_dir: fonts
+
 - url: /img
-  static_dir:img
+  static_dir: img
+
 - url: /.*
   script: helloworld.php
