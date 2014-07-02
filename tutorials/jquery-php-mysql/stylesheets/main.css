@@ -1,8 +1,4 @@
-body{
-	background: gray;
-}
 /********** General Styles *********/
-.content{background: rgb(135, 221, 248);}
 .navbar{ height:50px;background:rgba(0, 0, 0, 0.6);color:white;}
 .navbar-header{padding-top: 5px;}
 .navbar-header a{font-weight: bold;font-size: 32px;line-height: 32px;color:white;text-decoration: none;}
@@ -13,5 +9,9 @@ body{
 
 footer{border-top: 1px solid gray;text-align: center;}
 
-/******* Twitter Who to follow **************/
-.who-to-follow{min-height: 350px;min-width: 300px;background: white;border: 1px solid whitesmoke;}
+/******* Hover Demo **************/
+.hover-demo{margin-top: 220px;}
+.hover-demo{text-align: center;}
+.on-hover-content{position: absolute;bottom: 40px;background-color: whitesmoke;padding: 10px;border-radius: 10px;}
+.on-hover-content img{width:360px;}
+#dynamic-content{width: 360px;overflow: scroll;}

@@ -4,17 +4,12 @@ runtime: php
 api_version: 1
 
 handlers:
-- url: /css
-  static_dir: css
+- url: /stylesheets
+  static_dir: stylesheets
 
-- url: /js
-  static_dir: js
-
-- url: /fonts
-  static_dir: fonts
-
-- url: /img
-  static_dir: img
-
+- url: /stylesheets/(.*\.(css)) 
+  static_files: stylesheets/\1
+  upload: stylesheets/(.*\.(css))
+  
 - url: /.*
   script: helloworld.php
